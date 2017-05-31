@@ -102,8 +102,4 @@ alias src    "source ~/.tcshrc"
 alias ls     "ls-F"
 alias work   "sudo su - eoshaugh"
 
-setenv PROXY http://www-proxy.us.oracle.com:80
-
-alias proxy  "setenv HTTP_PROXY ${PROXY}; setenv HTTPS_PROXY ${PROXY}; setenv ALL_PROXY ${PROXY}"
-alias noproxy "unsetenv HTTP_PROXY HTTPS_PROXY ALL_PROXY"
 
