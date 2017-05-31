@@ -1,0 +1,14 @@
+
+OPTIONS=name:Snot
+#OPTIONS=role:wizard
+OPTIONS=role:monk
+OPTIONS=race:human
+OPTIONS=gender:male
+OPTIONS=align:chaotic
+OPTIONS=!autopickup,pushweapon,safe_pet
+OPTIONS=fruit:BrianBoitano
+OPTIONS=pickup_types:%?/
+OPTIONS=catname=George,dogname=Doggy,horsename:RoadApple,pettype:dog
+OPTIONS=!prayconfirm,!legacy
+OPTIONS=msg_window:combination
+OPTIONS=time,showexp
